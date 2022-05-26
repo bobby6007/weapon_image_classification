@@ -10,15 +10,16 @@ import streamlit as st
 from fastai.vision.all import *
 import plotly.express as px
 import pathlib
+import platform
 
 
 
 
 
 
-plt=platform.system()
-temp = pathlib.PosixPath
-pathlib.PosixPath
+# plt=platform.system()
+# temp = pathlib.PosixPath
+# pathlib.PosixPath
 
 #title
 st.title('Weapons Classifier')
